@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Sym link or real directory with gigabytes of VEP reference data
+vep_data
+
+# A working folder we don't want to commit
+vep_working
+
+# all our working local data - should never be checked in
+variant-counts-*

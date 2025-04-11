@@ -1,0 +1,13 @@
+[project]
+name = "variants-counts"
+version = "0.1.0"
+description = "Python scripts for computing and analysing variant counts"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3==1.37.28",
+    "docker==7.1.0",
+    "duckdb==1.2.2",
+    "polars[all]==1.17.1",
+    "stream-unzip==0.0.99",
+]

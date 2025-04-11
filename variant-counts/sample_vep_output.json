@@ -1,0 +1,82 @@
+{
+  "input": "1 1918090 test1 A G . . .",
+  "id": "test1",
+  "seq_region_name": "1",
+  "start": 1918090,
+  "end": 1918090,
+  "strand": 1,
+  "allele_string": "A/G",
+  "most_severe_consequence": "missense_variant",
+  "colocated_variants": [
+    {
+      "id": "COSV57068665",
+      "seq_region_name": "1",
+      "start": 1918090,
+      "end": 1918090,
+      "strand": 1,
+      "allele_string": "COSMIC_MUTATION"
+    },
+    {
+      "id": "rs28640257",
+      "seq_region_name": "1",
+      "start": 1918090,
+      "end": 1918090,
+      "strand": 1,
+      "allele_string": "A/G/T",
+      "minor_allele": "G",
+      "minor_allele_freq": 0.352,
+      "frequencies": {
+        "G": {
+          "amr": 0.5072,
+          "gnomade_sas": 0.369,
+          "gnomade": 0.4541,
+          "gnomade_oth": 0.4611,
+          "gnomade_asj": 0.3909,
+          "gnomade_nfe": 0.4944,
+          "gnomade_afr": 0.103,
+          "afr": 0.053,
+          "gnomade_amr": 0.5641,
+          "gnomade_fin": 0.474,
+          "sas": 0.3906,
+          "gnomade_eas": 0.4598,
+          "eur": 0.4901,
+          "eas": 0.4623
+        }
+      }
+    }
+  ],
+  "transcript_consequences": [
+    {
+      "variant_allele": "G",
+      "consequence_terms": [
+        "missense_variant"
+      ],
+      "gene_id": "ENSG00000178821",
+      "transcript_id": "ENST00000310991",
+      "strand": -1,
+      "cdna_start": 436,
+      "cdna_end": 436,
+      "cds_start": 422,
+      "cds_end": 422,
+      "protein_start": 141,
+      "protein_end": 141,
+      "codons": "aTg/aCg",
+      "amino_acids": "M/T",
+      "polyphen_prediction": "benign",
+      "polyphen_score": 0.001,
+      "sift_prediction": "tolerated",
+      "sift_score": 0.22,
+      "hgvsp": "ENSP00000311122.3:p.Met141Thr",
+      "hgvsc": "ENST00000310991.8:c.422T>C"
+    }
+  ],
+  "regulatory_feature_consequences": [
+    {
+      "variant_allele": "G",
+      "consequence_terms": [
+        "regulatory_region_variant"
+      ],
+      "regulatory_feature_id": "ENSR00000000255"
+    }
+  ]
+}
