@@ -43,6 +43,7 @@ def do_duckdb_analysis(bucket: str, contigs: List[str], geneid):
         WHERE {labs_contributing_count_name} > 1 AND
                 impact IN ['MODERATE', 'HIGH']
         ORDER BY impact DESC
+        LIMIT 20
     """)
 
     for x in con.fetchall():
